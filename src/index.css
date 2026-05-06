@@ -1,0 +1,19 @@
+.discount-badge {
+    position: relative;
+  }
+  
+  #plus-icon:hover {
+    background-color: rgb(9, 121, 105);
+    color:aliceblue
+  }
+
+  .hover-card .heart-icon {
+    opacity: 0; /* Hide the heart icon by default */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .hover-card:hover .heart-icon {
+    opacity: 1; /* Show the heart icon on hover */
+  }
+  
+  
