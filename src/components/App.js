@@ -18,7 +18,7 @@ const [products,setProducts]=useState([])
 // Extra for Django
 
 useEffect(() => {
-  fetch("http://127.0.0.1:8000/api/products/")
+  fetch("https://fullstack-ecommerce-backend-vs9n.onrender.com/api/products/")
   .then(res => res.json())
   .then(data => {
     setProducts(data);
@@ -39,7 +39,7 @@ const [qty,setQty]=useState(1)
 // Extra for Django
 const addtocart = async (id) => {
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/cart/add/", {
+      const response = await fetch("https://fullstack-ecommerce-backend-vs9n.onrender.com/api/cart/add/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

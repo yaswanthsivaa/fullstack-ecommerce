@@ -49,7 +49,7 @@ export default function ProductDetail() {
         <div className="row">
           <div className="col-md-6">
             <img
-              src={`http://127.0.0.1:8000/media/${product.image}`}
+              src={`https://fullstack-ecommerce-backend-vs9n.onrender.com/media/${product.image}`}
               alt={product.product_name}
               className="img-fluid"
               style={{ maxHeight: "400px", objectFit: "contain" }}
@@ -96,7 +96,7 @@ export default function ProductDetail() {
             <div key={item.id} className="col-md-3">
               <div className="card text-center">
                 <img
-                  src={`http://127.0.0.1:8000/media/${item.image}`}
+                  src={`https://fullstack-ecommerce-backend-vs9n.onrender.com/media/${item.image}`}
                   alt={item.product_name}
                   className="card-img-top"
                   style={{ height: "150px", objectFit: "contain" }}
